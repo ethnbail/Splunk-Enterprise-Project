@@ -19,7 +19,12 @@ This project demonstrates how to set up and use Splunk Enterprise 9.4.2 on Kali 
 - How to manually install `.tgz` packages
 - How to explore and search Splunk internal logs
 - How to interpret Splunk metrics and UI access logs
+- 
 
-##  Notes
-- This project does not use the Universal Forwarder
-- No external Splunk indexers or cloud services required
+## Example: Internal Sourcetype Activity Over Time
+
+This chart shows how various Splunk sourcetypes (e.g., `splunkd`, `mongod`, `scheduler`) are producing internal log events over time.
+
+Query used:
+```spl
+index=_internal | timechart count by sourcetype
