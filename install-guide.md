@@ -14,11 +14,11 @@ Select:
 cd ~/Downloads
 tar -xvzf splunk-9.4.2-*.tgz
 sudo mv splunk /opt/
-'''
+```
 ##  Step 3: Start Splunk and Accept License
-'''
+```
 sudo /opt/splunk/bin/splunk start --accept-license
-'''
+```
 ## Step 4: Access the Web Interface
 http://localhost:8000
 
