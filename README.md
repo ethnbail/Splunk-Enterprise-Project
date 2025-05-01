@@ -19,7 +19,6 @@ This project demonstrates how to set up and use Splunk Enterprise 9.4.2 on Kali 
 - How to manually install `.tgz` packages
 - How to explore and search Splunk internal logs
 - How to interpret Splunk metrics and UI access logs
-- 
 
 ## Example: Internal Sourcetype Activity Over Time
 
